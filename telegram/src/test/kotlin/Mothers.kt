@@ -26,6 +26,7 @@ import com.github.kotlintelegrambot.entities.files.VideoNote
 import com.github.kotlintelegrambot.entities.files.Voice
 import com.github.kotlintelegrambot.entities.payments.OrderInfo
 import com.github.kotlintelegrambot.entities.payments.PreCheckoutQuery
+import com.github.kotlintelegrambot.entities.payments.RefundedPayment
 import com.github.kotlintelegrambot.entities.payments.ShippingQuery
 import com.github.kotlintelegrambot.entities.payments.SuccessfulPayment
 import com.github.kotlintelegrambot.entities.polls.PollAnswer
@@ -102,6 +103,7 @@ fun anyMessage(
     migrateFromChatId: Long? = null,
     invoice: Invoice? = null,
     successfulPayment: SuccessfulPayment? = null,
+    refundedPayment: RefundedPayment? = null,
     dice: Dice? = null,
     animation: Animation? = null,
     replyMarkup: InlineKeyboardMarkup? = null,
@@ -142,6 +144,7 @@ fun anyMessage(
     migrateFromChatId = migrateFromChatId,
     invoice = invoice,
     successfulPayment = successfulPayment,
+    refundedPayment = refundedPayment,
     dice = dice,
     animation = animation,
     replyMarkup = replyMarkup,
