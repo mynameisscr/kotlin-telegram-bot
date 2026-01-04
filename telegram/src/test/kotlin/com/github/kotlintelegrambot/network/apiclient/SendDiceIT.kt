@@ -147,7 +147,8 @@ class SendDiceIT : ApiClientIT() {
                         "id": 482352699,
                         "is_bot": true,
                         "first_name": "foo",
-                        "username": "bar"
+                        "username": "bar",
+                        "is_premium": false
                     },
                     "chat": {
                         "id": -1001287972005,

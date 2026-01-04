@@ -374,7 +374,8 @@ class SendMediaGroupIT : ApiClientIT() {
                                     "id": 482352699,
                                     "is_bot": true,
                                     "first_name": "test",
-                                    "username": "testing"
+                                    "username": "testing",
+                                    "is_premium": false
                                 },
                                 "chat": {
                                     "id": -10012869234005,
@@ -398,7 +399,8 @@ class SendMediaGroupIT : ApiClientIT() {
                                     "id": 482352699,
                                     "is_bot": true,
                                     "first_name": "test",
-                                    "username": "testing"
+                                    "username": "testing",
+                                    "is_premium": false
                                 },
                                 "chat": {
                                     "id": -10012869234005,
@@ -437,7 +439,8 @@ class SendMediaGroupIT : ApiClientIT() {
                                 "id": 482352699,
                                 "is_bot": true,
                                 "first_name": "test",
-                                "username": "testing"
+                                "username": "testing",
+                                "is_premium": false
                             },
                             "chat": {
                                 "id": -1001286972005,
@@ -461,7 +464,8 @@ class SendMediaGroupIT : ApiClientIT() {
                                 "id": 482352699,
                                 "is_bot": true,
                                 "first_name": "test",
-                                "username": "testing"
+                                "username": "testing",
+                                "is_premium": false
                             },
                             "chat": {
                                 "id": -1001286972005,

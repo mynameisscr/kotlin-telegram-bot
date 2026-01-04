@@ -75,7 +75,8 @@ class GetUpdatesIT : ApiClientIT() {
                                 "is_bot": false,
                                 "first_name": "TestName",
                                 "username": "testname",
-                                "language_code": "de"
+                                "language_code": "de",
+                                "is_premium": false
                             },
                             "message": {
                                 "message_id": 1,
@@ -83,7 +84,8 @@ class GetUpdatesIT : ApiClientIT() {
                                     "id": 1,
                                     "is_bot": true,
                                     "first_name": "testbot",
-                                    "username": "testbot"
+                                    "username": "testbot",
+                                    "is_premium": false
                                 },
                                 "chat": {
                                     "id": 1,
@@ -299,7 +301,8 @@ class GetUpdatesIT : ApiClientIT() {
                                     "is_bot": false,
                                     "first_name": "Sheldon",
                                     "username": "shelly",
-                                    "language_code": "en"
+                                    "language_code": "en",
+                                    "is_premium": false
                                 },
                                 "date": 1678450453,
                                 "old_chat_member": {
@@ -307,7 +310,8 @@ class GetUpdatesIT : ApiClientIT() {
                                         "id": 1,
                                         "is_bot": true,
                                         "first_name": "testbot",
-                                        "username": "testbot"
+                                        "username": "testbot",
+                                        "is_premium": false
                                     },
                                     "status": "member"
                                 },
@@ -316,7 +320,8 @@ class GetUpdatesIT : ApiClientIT() {
                                         "id": 1,
                                         "is_bot": true,
                                         "first_name": "testbot",
-                                        "username": "testbot"
+                                        "username": "testbot",
+                                        "is_premium": false
                                     },
                                     "status": "kicked",
                                     "until_date": 0
@@ -328,7 +333,8 @@ class GetUpdatesIT : ApiClientIT() {
                                         "is_bot": false,
                                         "first_name": "Sheldon",
                                         "username": "shelly",
-                                        "language_code": "en"
+                                        "language_code": "en",
+                                        "is_premium": false
                                     },
                                     "creates_join_request" : true,
                                     "is_primary" : true,
@@ -426,7 +432,8 @@ class GetUpdatesIT : ApiClientIT() {
                     "first_name": "Sheldon",
                     "last_name": "Cooper",
                     "username": "shelly",
-                    "language_code": "en"
+                    "language_code": "en",
+                    "is_premium": false
                 },
                 "chat_type": "sender",
                 "query": "",
@@ -443,7 +450,8 @@ class GetUpdatesIT : ApiClientIT() {
                     "first_name": "Sheldon",
                     "last_name": "Cooper",
                     "username": "shelly",
-                    "language_code": "en"
+                    "language_code": "en",
+                    "is_premium": false
                 },
                 "chat_type": "supergroup",
                 "query": "h",
@@ -460,7 +468,8 @@ class GetUpdatesIT : ApiClientIT() {
                     "first_name": "Sheldon",
                     "last_name": "Cooper",
                     "username": "shelly",
-                    "language_code": "en"
+                    "language_code": "en",
+                    "is_premium": false
                 },
                 "query": "hi",
                 "offset": ""

@@ -74,7 +74,8 @@ class GetChatAdministratorsIT : ApiClientIT() {
                             "id": 482352639,
                             "is_bot": true,
                             "first_name": "test",
-                            "username": "testBot"
+                            "username": "testBot",
+                            "is_premium": false
                         },
                         "status": "administrator",
                         "can_be_edited": false,
@@ -93,7 +94,8 @@ class GetChatAdministratorsIT : ApiClientIT() {
                             "first_name": "Tyrion",
                             "last_name": "Lannister",
                             "username": "dwarfing",
-                            "language_code": "en"
+                            "language_code": "en",
+                            "is_premium": false
                         },
                         "status": "creator",
                         "is_anonymous": false

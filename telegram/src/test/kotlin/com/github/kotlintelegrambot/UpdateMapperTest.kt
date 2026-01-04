@@ -29,7 +29,8 @@ class UpdateMapperTest {
                         "is_bot": false,
                         "first_name": "TestName",
                         "username": "testname",
-                        "language_code": "de"
+                        "language_code": "de",
+                        "is_premium": false
                     },
                     "message": {
                         "message_id": 1,
@@ -37,7 +38,8 @@ class UpdateMapperTest {
                             "id": 1,
                             "is_bot": true,
                             "first_name": "testbot",
-                            "username": "testbot"
+                            "username": "testbot",
+                            "is_premium": false
                         },
                         "chat": {
                             "id": 1,

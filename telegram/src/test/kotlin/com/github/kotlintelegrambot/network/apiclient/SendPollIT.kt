@@ -146,7 +146,8 @@ class SendPollIT : ApiClientIT() {
                         "id": 482352699,
                         "is_bot": true,
                         "first_name": "ruka",
-                        "username": "rukaBot"
+                        "username": "rukaBot",
+                        "is_premium": false
                     },
                     "chat": {
                         "id": -1001286972005,

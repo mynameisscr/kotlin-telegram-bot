@@ -36,7 +36,8 @@ class GetMeIT : ApiClientIT() {
                     "username": "pickleman",
                     "can_join_groups": true,
                     "can_read_all_group_messages": false,
-                    "supports_inline_queries": false
+                    "supports_inline_queries": false,
+                    "is_premium": false
                 }
             }
         """.trimIndent()
